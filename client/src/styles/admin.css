@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* CONTAINER */
+
+.admin-container {
+
+    max-width: 1000px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+}
+
+/* TITRE */
+
+.admin-container h2 {
+
+    text-align: center;
+
+    color: #1d3557;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+
+    margin-bottom: 35px;
+}
+
+/* SECTIONS */
+
+.admin-section {
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+
+    margin-bottom: 30px;
+
+    transition: 0.3s ease;
+}
+
+.admin-section:hover {
+
+    transform: translateY(-3px);
+}
+
+.admin-section h3 {
+
+    color: #1d3557;
+
+    margin-bottom: 25px;
+
+    text-align: center;
+
+    font-size: 1.5rem;
+}
+
+/* LISTE */
+
+.admin-list {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+/* CARTE UTILISATEUR */
+
+.admin-item {
+
+    background: #f8f9fb;
+
+    border-left: 5px solid #007bff;
+
+    border-radius: 14px;
+
+    padding: 18px 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+}
+
+.admin-user {
+
+    color: #1d3557;
+
+    font-weight: 500;
+}
+
+/* BOUTONS */
+
+.admin-btn {
+
+    border: none;
+
+    border-radius: 12px;
+
+    padding: 12px 18px;
+
+    background: #007bff;
+
+    color: white;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.admin-btn:hover {
+
+    background: #1d3557;
+
+    transform: translateY(-2px);
+}
+
+/* MESSAGE VIDE */
+
+.empty-admin {
+
+    text-align: center;
+
+    color: #666;
+
+    font-style: italic;
+}
+
+/* SEPARATEUR */
+
+.admin-separator {
+
+    border: none;
+
+    height: 2px;
+
+    background: rgba(29,53,87,0.1);
+
+    margin: 35px 0;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .admin-item {
+
+        flex-direction: column;
+
+        align-items: stretch;
+    }
+
+    .admin-btn {
+
+        width: 100%;
+    }
+}

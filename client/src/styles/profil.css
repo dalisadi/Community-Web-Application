@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* CONTAINER */
+
+.profil-container {
+
+    max-width: 900px;
+
+    margin: 40px auto;
+
+    padding: 20px;
+}
+
+.active-profile {
+
+    box-shadow: 0 0 0 4px rgba(0,123,255,0.25);
+
+    transform: scale(1.05);
+}
+
+/* TITRE */
+
+.profil-title {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+    color: #1d3557;
+
+    font-size: 2rem;
+
+    font-weight: 700;
+}
+
+/* CARTE PROFIL */
+
+.profil-card {
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 35px;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+
+    margin-bottom: 35px;
+
+    transition: 0.3s ease;
+}
+
+.profil-card:hover {
+
+    transform: translateY(-3px);
+}
+
+/* INFOS */
+
+.profil-info {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 12px;
+
+    font-size: 1rem;
+
+    color: #444;
+}
+
+.profil-info strong {
+
+    color: #1d3557;
+}
+
+/* SECTION MESSAGES */
+
+.messages-section {
+
+    background: white;
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.messages-section h3 {
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    color: #1d3557;
+
+    font-size: 1.5rem;
+}
+
+/* LISTE */
+
+.messages-section .messages-list {
+
+    max-height: 400px;
+
+    overflow-y: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    padding-right: 10px;
+}
+
+/* MESSAGE */
+
+.message-card {
+
+    background: #f8f9fb;
+
+    border-left: 5px solid #007bff;
+
+    border-radius: 16px;
+
+    padding: 20px;
+
+    transition: 0.3s ease;
+}
+
+.message-card:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+/* AUTEUR */
+
+.message-author {
+
+    color: #1d3557;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+/* CONTENU */
+
+.message-content {
+
+    color: #444;
+
+    line-height: 1.6;
+}
+
+/* BOUTONS */
+
+.admin-btn {
+
+    margin-top: 20px;
+
+    padding: 14px 20px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: #007bff;
+
+    color: white;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.admin-btn:hover {
+
+    background: #1d3557;
+
+    transform: translateY(-2px);
+}
+
+/* DEMANDE EN ATTENTE */
+
+.pending {
+
+    margin-top: 15px;
+
+    color: #ff8800;
+
+    font-weight: 500;
+}
+
+/* SCROLL */
+
+.messages-list::-webkit-scrollbar {
+
+    width: 8px;
+}
+
+.messages-list::-webkit-scrollbar-thumb {
+
+    background: #c7d5e0;
+
+    border-radius: 10px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    .profil-container {
+
+        margin: 20px;
+    }
+
+    .profil-card,
+    .messages-section {
+
+        padding: 20px;
+    }
+
+    .profil-title {
+
+        font-size: 1.7rem;
+    }
+}
