@@ -212,22 +212,6 @@ A Postman collection is included for API testing.
 
 ---
 
-## Screenshots
-
-The application includes several interfaces:
-
-- Landing page
-- Login
-- Registration
-- Community forum
-- Discussion details
-- User profile
-- Administration dashboard
-
-*(Screenshots will be added soon.)*
-
----
-
 ## Authors
 
 This project was developed by **a team of two undergraduate Computer Science students** as part of a Web Technologies course.
