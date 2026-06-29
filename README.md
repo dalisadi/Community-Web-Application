@@ -1,4 +1,4 @@
-# Community Discussion Platform
+# community Web Application
 
 A full-stack web application that enables users to participate in online discussions through a modern community forum. The platform supports user authentication, message publishing, threaded interactions, and role-based administration.
 
@@ -133,7 +133,7 @@ community-Web-Application/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/community-discussion-platform.git
+git clone https://github.com/yourusername/community-Web-Application.git
 ```
 
 ### Install backend dependencies
